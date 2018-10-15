@@ -46,26 +46,31 @@ where $N$ is the fstop, $f$ the focal length and $D$ the effective aperture radi
 
 However, quickly placing in the numbers shows that this can't be the full story:
 
-\begin{align}
-N & = {\frac {100}{2 * 25.5}} \\
-& \approx 3.92
-\end{align}
+$$N & = {\frac {100}{2 * 25.5}}  \approx 3.92$$
 
-#### the correct way
+Note that we're talking about the **effective** aperture here. This is the aperture as viewed from the sensor, which might be occluded by other lens elements. So, to take that into account we need to do some raytracing: In this case I start tracing parallel rays with increasing height until the ray is blocked by any of the lens elements.
 
-First, we need to do some brute-force raytracing to find out the effective aperture of the entry pupil. In this case I start tracing parallel rays with increasing height until the ray is blocked by any of the lens elements.
-
-We're now interested in the last vertex position (position on the entry pupil) of the last ray that was able to pass:
+We're now interested in the last vertex position (position on the entry pupil) of the last ray that was able to pass as this describes the effective aperture:
 
 ## insert image
 
-{% raw %}
-  $$\theta = tan^-1 (\frac{y}{x})$$
+Plugging this value into the equation:
 
-  $$fstop = \frac {1}{2sin(\theta)}$$
-{% endraw %}
+$$N & = {\frac {100}{2 * 29.0}}  \approx xxx$$
 
+Closer.. But still no cigar. Instead, the following equation should be used:
+
+$$\theta = tan^-1 (\frac{y}{x})$$
+
+$$fstop = \frac {1}{2sin(\theta)}$$
+
+Substituting now, this brings us much closer:
+
+$$fstop = \frac {1}{2sin(tan^-1 \frac{29.0}{58.0}} \approx 1.11$$
+
+<!-- 
 {% highlight c++ %}
   float theta = std::atan(y/x);
   float fstop = 1.0 / (std::sin(theta) * 2.0);
 {% endhighlight %}
+-->
