@@ -15,13 +15,12 @@ $$f-number={\frac {focal length}{effective aperture}}\$$
 #### the correct way
 
 
-
 {% raw %}
-  $$\theta = tan^-1 \fraq{x}{y}$$
-  $$fstop = \fraq {1.0}{sin(2\theta)}
+  $$\theta = tan^-1 (\frac{y}{x})$$
+  $$fstop = \frac {1}{2sin(\theta)}$$
 {% endraw %}
 
 {% highlight c++ %}
-float theta = std::atan(positiondata[1] / positiondata[0]);
-float fstop = 1.0 / (std::sin(theta)* 2.0);
+float theta = std::atan(y/x);
+float fstop = 1.0 / (std::sin(theta) * 2.0);
 {% endhighlight %}
