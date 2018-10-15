@@ -4,12 +4,13 @@ title:  "On the correct computation of the f-stop"
 date:   2018-10-14 22:00:00
 ---
 
-#### Heading 4
-the correct way
+#### the correct way
 
 
 {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+  $$a^2 + b^2 = c^2$$
+  
+  --> note that all equations between these tags will not need escaping! 
 {% endraw %}
 
 {% highlight c++ %}
