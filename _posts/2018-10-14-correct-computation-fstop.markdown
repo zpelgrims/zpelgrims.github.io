@@ -23,7 +23,7 @@ The following table of optical elements, taken from [patent 2701982](https://pat
 | -225.30000  	| 0.23      	| air   	|        	|       	| 35   	|
 | 175.09000   	| 8.48      	| LAK9  	| 1.6913 	| 53.8  	| 35   	|
 | -203.55000  	| 55.742    	| air   	|        	|       	| 35   	|
-
+{}:.mbtablestyle}
 > note that the radius is not usually described in optics patents. In this case it was matched visually to the lens drawing. 
 
 focal length of 100
