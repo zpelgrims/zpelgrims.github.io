@@ -4,7 +4,9 @@ title:  "On the correct computation of the f-stop"
 date:   2018-10-14 22:00:00
 ---
 
-The following table of optical elements, taken from [patent 2701982](https://patentimages.storage.googleapis.com/2f/75/dd/b76ccb73bc0f44/US2701982.pdf) is standardized to a focal length of 100 millimeters. The patent describes an fstop of
+#### the constants
+
+The following table of optical elements, taken from [patent 2701982](https://patentimages.storage.googleapis.com/2f/75/dd/b76ccb73bc0f44/US2701982.pdf), is standardized to a focal length of 100 millimeters. The patent describes an fstop of
 
 | curvature radius 	| thickness 	| mat   	| index  	| vno   	| radius   	|
 |-------------	|-----------	|-------	|--------	|-------	|------	|
@@ -26,9 +28,6 @@ The following table of optical elements, taken from [patent 2701982](https://pat
 {:.mbtablestyle}
 
 *note that the radius is not usually described in optics patents. In this case it was matched visually to the lens drawing.*
-
-focal length of 100
-aperture of 1.15
 
 #### the incorrect way
 

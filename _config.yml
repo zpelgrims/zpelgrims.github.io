@@ -1,8 +1,8 @@
 # Title of your blog; shows in the header
-name: "ramblings"
+name: "zeno/thoughts"
 
 # Description of your content (will only be used on Google Search)
-description: "ramblings"
+description: ""
 
 # Your name. Will show in your footer + sidebar
 author: "zeno pelgrims"
@@ -11,15 +11,13 @@ url: "https://zpelgrims.github.io"
 baseurl:
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "fill this in yo"
+author-bio: "Technical shading @ Animal Logic. Special interest in esoteric lens effects."
 
-# Social Accounts (mine, as placeholders)
-
+# Social Account
 twitter: zenopelgrims
 github: zpelgrims
 
 # Google Analytics (you may want to changes these with yours or even delete :)
-
 ga_domain: 
 ga_tracking_id: 
 
