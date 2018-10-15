@@ -7,7 +7,7 @@ description: "ramblings"
 # Your name. Will show in your footer + sidebar
 author: "zeno pelgrims"
 
-url: "http://zpelgrims.github.io"
+url: "https://zpelgrims.github.io"
 baseurl:
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
@@ -15,10 +15,8 @@ author-bio: "fill this in"
 
 # Social Accounts (mine, as placeholders)
 
-twitter: mx3m
-github: m3xm
-dribbble: m3xm
-instagram: m3xm
+twitter: zenopelgrims
+github: zpelgrims
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
