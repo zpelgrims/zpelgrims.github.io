@@ -60,13 +60,13 @@ $$N = {\frac {100}{2 * 29.0}}  \approx xxx$$
 
 Closer.. But still no cigar. Instead, the following equation should be used:
 
-$$\theta = tan^-1 (\frac{y}{x})$$
+$$\theta = tan^{-1} (\frac{y}{x})$$
 
 $$fstop = \frac {1}{2sin(\theta)}$$
 
 Substituting now, this brings us much closer:
 
-$$fstop = \frac {1}{2sin(tan^-1 \frac{29.0}{58.0})} \approx 1.11$$
+$$fstop = \frac {1}{2sin(tan^{-1} \frac{29.0}{58.0})} \approx 1.11$$
 
 <!-- 
 {% highlight c++ %}
