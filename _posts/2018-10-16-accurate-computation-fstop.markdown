@@ -46,7 +46,7 @@ where $N$ is the fstop, $f$ the focal length and $D$ the effective aperture radi
 
 However, quickly placing in the numbers shows that this can't be the full story:
 
-$$N & = {\frac {100}{2 * 25.5}}  \approx 3.92$$
+$$N = {\frac {100}{2 * 25.5}}  \approx 3.92$$
 
 Note that we're talking about the **effective** aperture here. This is the aperture as viewed from the sensor, which might be occluded by other lens elements. So, to take that into account we need to do some raytracing: In this case I start tracing parallel rays with increasing height until the ray is blocked by any of the lens elements.
 
@@ -56,7 +56,7 @@ We're now interested in the last vertex position (position on the entry pupil) o
 
 Plugging this value into the equation:
 
-$$N & = {\frac {100}{2 * 29.0}}  \approx xxx$$
+$$N = {\frac {100}{2 * 29.0}}  \approx xxx$$
 
 Closer.. But still no cigar. Instead, the following equation should be used:
 
@@ -66,7 +66,7 @@ $$fstop = \frac {1}{2sin(\theta)}$$
 
 Substituting now, this brings us much closer:
 
-$$fstop = \frac {1}{2sin(tan^-1 \frac{29.0}{58.0}} \approx 1.11$$
+$$fstop = \frac {1}{2sin(tan^-1 \frac{29.0}{58.0})} \approx 1.11$$
 
 <!-- 
 {% highlight c++ %}
