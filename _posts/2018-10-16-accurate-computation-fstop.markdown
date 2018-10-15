@@ -46,9 +46,10 @@ where $N$ is the fstop, $f$ the focal length and $D$ the effective aperture radi
 
 However, quickly placing in the numbers shows that this can't be the full story:
 
-$$N={\frac {100}{2 * 25.5}}$$
-
-$$N \approxident 3.92$$
+\begin{align}
+$$N & = {\frac {100}{2 * 25.5}}$$ \\
+$$& = \approx 3.92$$
+\end{align}
 
 #### the correct way
 
