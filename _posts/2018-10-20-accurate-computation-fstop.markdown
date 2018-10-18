@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On accurate computation of the f-stop"
-date:   2018-10-31 22:00:00
+date:   2018-10-20 11:00:00
 ---
 
 #### the constants
