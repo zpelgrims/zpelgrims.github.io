@@ -45,6 +45,7 @@ We're now interested in the position on the entry pupil of the last ray that was
 
 <img src="{{ site.baseurl }}/assets/img/1920-cooke-speed-panchro.png">
 *In this image I scaled the lens to a focal length of 100mm. This makes it a little bit easier to visualise. If you scale the radius of curvature, thickness and housing radius by the same constant, you can adjust the focal length of the lens by that same constant.*
+{:.caption}
 
 Plugging this value into the equation:
 
