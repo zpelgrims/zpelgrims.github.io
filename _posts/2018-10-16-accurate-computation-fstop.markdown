@@ -64,6 +64,7 @@ Substituting now, this brings us much closer:
 
 $$NA = \frac {1}{2sin(tan^{-1} \frac{20.5}{79.5})} \approx 2.002$$
 
+---
 
 I think the main idea to take away from this, is that there's an issue regarding the nomenclature regarding this popular subject. The word f-stop is passed around rather carelessly. In optics literature, usually the numerical aperture is used. In photography, the f-number is used. It is incredibly confusing they have the same f/~ notation.
 
