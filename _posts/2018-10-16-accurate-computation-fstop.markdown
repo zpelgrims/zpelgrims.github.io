@@ -6,9 +6,9 @@ date:   2018-10-31 22:00:00
 
 #### the constants
 
-The following table of optical elements, taken from [patent GB157040A](https://worldwide.espacenet.com/publicationDetails/originalDocument?CC=GB&NR=157040A&KC=A&FT=D&ND=3&date=19210120&DB=&locale=en_EP), is standardized to a focal length of 1 inch ($\approx$ 25.4 mm). The patent describes an aperture of f/2.
+The following table of optical elements, taken from [patent GB157040A](https://worldwide.espacenet.com/publicationDetails/originalDocument?CC=GB&NR=157040A&KC=A&FT=D&ND=3&date=19210120&DB=&locale=en_EP), is standardized to a focal length of 1 inch ($\approx$ 25.4 mm). The patent describes an aperture of $f$/2.
 
-Sidenote, this lens, the uncoated Cooke Speed Panchro designed by Horace W. Lee in 1920, is incredibly significant in the history of cinema.
+Unrelated but interesting never the less, the uncoated Cooke Speed Panchro designed by Horace W. Lee in 1920 described below, is incredibly significant in the history of cinema.
 
 
 | radius  	| thickness 	| material 	| ior    	| abbe 	| housing-radius 	|
@@ -53,7 +53,7 @@ Closer.. But clearly still incorrect.
 
 #### numerical aperture
 
-Instead, the following equation for the numerical aperture should be used:
+Instead, the following equation for the numerical aperture should be used, which describes the range of angles over which the system can accept or emit light:
 
 $$\theta = tan^{-1} (\frac{y}{x})$$
 
@@ -66,7 +66,7 @@ $$NA = \frac {1}{2sin(tan^{-1} \frac{20.5}{79.5})} \approx 2.002$$
 
 ---
 
-I think the main idea to take away from this, is that there's an issue regarding the nomenclature regarding this popular subject. The word f-stop is passed around rather carelessly. In optics literature, usually the numerical aperture is used. In photography, the f-number is used. It is incredibly confusing they have the same f/~ notation.
+I think the main idea to take away from this, is that there's an **issue regarding the nomenclature** for this popular subject. The word f-stop is passed around rather carelessly. In optics literature, usually the numerical aperture is used. In photography, the f-number is used. It is incredibly confusing they have the same f/~ notation.
 
 The same issue goes for the focal length definitions. The effective focal length *[distance between intersection(ray, optical axis) and the principal plane]* is not the same as the back focal length *[distance between intersection(ray, optical axis) and the entry pupil vertex]*.
 
