@@ -23,7 +23,7 @@ Sidenote, this lens, the Cooke Speed Panchro, designed by Horace W. Lee, is incr
 | 11.3309 	| 2.4765    	| abbe     	| 1.6118 	| 59   	| 6              	|
 | 100000  	| 1.06172   	| abbe     	| 1.576  	| 41   	| 6              	|
 | 7.1856  	| 1.7691    	| air      	|       	|     	| 4.65           	|
-| infinite   | 1.7691    	| iris     	|       	|       | 4.65           	|
+| infinite  | 1.7691    	| aperture  |       	|       | 4.65           	|
 | -7.2872 	| 1.06172   	| abbe     	| 1.576  	| 41   	| 4.65           	|
 {:.mbtablestyle}
 *Note that the housing radii are not usually described in optics literature. In this case it was matched visually by overlaying the patent's lens drawing with my own so small errors are to be expected*
@@ -41,7 +41,7 @@ where $N$ is the fstop, $f$ the focal length and $D$ the effective aperture radi
 
 However, quickly placing in the numbers shows that this can't be the full story:
 
-$$N = {\frac {100}{2 * 25.5}}  \approx 3.92$$
+$$N = {\frac {25.4}{2 * 4.65}}  \approx 2.73$$
 
 Note that we're talking about the **effective** aperture here. This is the aperture as viewed from the sensor, which might be occluded by other lens elements. So, to take that into account we need to do some raytracing: In this case I start tracing parallel rays with increasing height until the ray is blocked by any of the lens elements.
 
