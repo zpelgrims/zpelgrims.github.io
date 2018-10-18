@@ -4,7 +4,7 @@ title:  "On installing visual studio command line tools on a build server"
 date:   2018-10-22 22:00:00
 ---
 
-When writing shaders, I often need to compile them for various operating system flavours. Windows is always the sore thumb of the lot, so I spent some time finding a better way to deal with this.
+When writing c++ shaders, I often need to compile them for various operating system flavours. Windows is always the sore thumb of the lot, so I spent some time finding a better way to deal with this.
 
 Instead of emulating windows on linux/macOS, I rent a windows server instead (at [vultr.com](www.vultr.com)).
 
@@ -30,7 +30,7 @@ And load the visual studio command line tools environment (64bit in this case):
 
 ---
 
-Apart from these packages, I also install these tools before launching into the vs command line environment:
+Apart from these packages, I also install these tools before launching into the VS command line environment:
 
 The .net framework (Pathed requirement):
 {% highlight bat %}
