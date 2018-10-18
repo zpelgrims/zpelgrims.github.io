@@ -57,10 +57,10 @@ Git:
 {% highlight bat %}
     choco install git -params '"/GitAndUnixToolsOnPath"' --yes
     "C:\Program Files (x86)\p-nand-q.com\GTools\pathed" /APPEND "C:\Program Files\Git\bin" /MACHINE
-{% highlight bat %}
+{% endhighlight %}
 
 7zip:
 {% highlight bat %}
     choco install 7zip --yes
     "C:\Program Files (x86)\p-nand-q.com\GTools\pathed" /APPEND "C:\Program Files\7-Zip" /MACHINE
-{% highlight bat %}
+{% endhighlight %}
