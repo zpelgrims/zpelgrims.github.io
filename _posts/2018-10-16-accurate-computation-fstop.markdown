@@ -7,23 +7,22 @@ date:   2018-10-31 22:00:00
 #### TODO
 
 - make some nice drawings
-- write styling for small captions
 
 #### the constants
 
 The following table of optical elements, taken from [patent GB157040A](https://worldwide.espacenet.com/publicationDetails/originalDocument?CC=GB&NR=157040A&KC=A&FT=D&ND=3&date=19210120&DB=&locale=en_EP), is standardized to a focal length of 1 inch ($\approx$ 25.4 mm). The patent describes an aperture of f/2.
 
-Sidenote, this lens, the Cooke Speed Panchro, designed by Horace W. Lee, is incredibly significant in the history of cinema.
+Sidenote, this lens, the uncoated Cooke Speed Panchro designed by Horace W. Lee in 1920, is incredibly significant in the history of cinema.
 
 
 | radius  	| thickness 	| material 	| ior    	| abbe 	| housing-radius 	|
 |---------	|-----------	|----------	|--------	|------	|----------------	|
 | 16.59   	| 2.1234    	| abbe     	| 1.6118 	| 59   	| 6.5            	|
-| 76.809  	| 0.35306   	| air      	|       	|     	| 6.5            	|
+| 76.809  	| 0.35306   	| air      	| -      	| -    	| 6.5            	|
 | 11.3309 	| 2.4765    	| abbe     	| 1.6118 	| 59   	| 6              	|
 | 100000  	| 1.06172   	| abbe     	| 1.576  	| 41   	| 6              	|
-| 7.1856  	| 1.7691    	| air      	|       	|     	| 4.65           	|
-| infinite  | 1.7691    	| aperture  |       	|       | 4.65           	|
+| 7.1856  	| 1.7691    	| air      	| -      	| -    	| 4.65           	|
+| infinite  | 1.7691    	| aperture  | -      	| -     | 4.65          	|
 | -7.2872 	| 1.06172   	| abbe     	| 1.576  	| 41   	| 4.65           	|
 {:.mbtablestyle}
 *Note that the housing radii are not usually described in optics literature. In this case it was matched visually by overlaying the patent's lens drawing with my own so small errors are to be expected*
@@ -47,7 +46,7 @@ Note that we're talking about the **effective** aperture here. This is the apert
 
 We're now interested in the last vertex position (position on the entry pupil) of the last ray that was able to pass as this describes the effective aperture:
 
-## insert image
+<img src="{{ site.baseurl }}/assets/img/1920-cooke-speed-panchro.png">
 
 Plugging this value into the equation:
 
