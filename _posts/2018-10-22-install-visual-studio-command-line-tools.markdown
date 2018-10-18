@@ -42,13 +42,13 @@ wget - to download e.g the Arnold API (I uploaded the relevant API's to a Dropbo
     choco install wget --yes
 {% endhighlight %}
 
-Pathed - a tool for easy adding to the {% highlight %}%PATH%{% endhighlight %}{:.inlined} envvar. I dislike {% highlight %}setx{% endhighlight %}{:.inlined} since it concatenates after 1024 characters like it's 1975.
+Pathed - a tool for easy adding to the {% highlight bat%}%PATH%{% endhighlight %}{:.inlined} envvar. I dislike {% highlight bat%}setx{% endhighlight %}{:.inlined} since it concatenates after 1024 characters like it's 1975.
 {% highlight bat %}
     wget http://p-nand-q.com/download/gtools/gtools-current.exe
     C:\lentil-build\tools\gtools-current.exe
 {% endhighlight %}
 
-A tool to refresh the current environment, so the additions to {% highlight %}%PATH%{% endhighlight %}{:.inlined} are loaded:
+A tool to refresh the current environment, so the additions to {% highlight bat %}%PATH%{% endhighlight %}{:.inlined} are loaded:
 {% highlight bat %}
     wget https://github.com/chocolatey/choco/raw/master/src/chocolatey.resources/redirects/RefreshEnv.cmd
 {% endhighlight %}
