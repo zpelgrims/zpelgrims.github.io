@@ -34,7 +34,7 @@ That’s all there is to it really.
 {:.caption}
 
 
-This was a challenge held on www.shaders.xyz, so there's lots more cool approaches to explore over there: https://forum.shaders.xyz/d/11319-challenge-10-welding/
+This was a challenge held on www.shaders.xyz, so there's lots more cool approaches to explore over there: [](https://forum.shaders.xyz/d/11319-challenge-10-welding/)
 
 
 #### CODE
