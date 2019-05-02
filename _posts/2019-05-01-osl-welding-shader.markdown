@@ -4,7 +4,11 @@ title:  "Procedural welding in OSL"
 date:   2019-05-01 11:00:00
 ---
 
-#### Algoriddims
+<img src="{{ site.baseurl }}/assets/img/zenopelgrims_shadersxyz_challenge_10_welding_002">
+*The burn variation could use some work ...*
+{:.caption}
+
+#### ALGORIDDIM
 
 Procedural welding is an interesting challenge since it's not something you want to hand paint on every metal intersection. UV based techniques fail because we often cut out UV's in the places were the welding occurs.
 
@@ -29,10 +33,12 @@ That’s all there is to it really.
 *This ramp defines the profile of the weld*
 {:.caption}
 
-<!-- <img src="{{ site.baseurl }}/assets/img/1920-cooke-speed-panchro.png"> -->
 
+#### CODE
 
 The base algorithm works, but the way the pointdata input/output is done is really bad. It'd be better to add it as a primvar and read it straight from the geometry. Someone else can do the cleanup, this worked for what I needed it to ¯\\\_(ツ)\_/¯
+
+The output of the shader packed in 3 channels: the welding displacement in R, a weld probability in G and the burn radius in B.
 
 {% highlight c++ %}
   float rand(float n){
