@@ -34,11 +34,15 @@ That’s all there is to it really.
 {:.caption}
 
 
+This was a challenge held on www.shaders.xyz, so there's lots more cool approaches to explore over there: https://forum.shaders.xyz/d/11319-challenge-10-welding/
+
+
 #### CODE
 
 The base algorithm works, but the way the pointdata input/output is done is really bad. It'd be better to add it as a primvar and read it straight from the geometry. Someone else can do the cleanup, this worked for what I needed it to ¯\\\_(ツ)\_/¯
 
 The output of the shader packed in 3 channels: the welding displacement in R, a weld probability in G and the burn radius in B.
+
 
 {% highlight c++ %}
   float rand(float n){
