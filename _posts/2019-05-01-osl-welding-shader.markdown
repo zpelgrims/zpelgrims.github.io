@@ -32,11 +32,8 @@ That’s all there is to it really.
 <!-- <img src="{{ site.baseurl }}/assets/img/1920-cooke-speed-panchro.png"> -->
 
 
-{:.caption}
-
 The base algorithm works, but the way the pointdata input/output is done is really bad. It'd be better to add it as a primvar and read it straight from the geometry. Someone else can do the cleanup, this worked for what I needed it to ¯\\\_(ツ)\_/¯
 
-<!-- 
 {% highlight c++ %}
   float rand(float n){
       return sin(n) * 43758.5453123 - floor(sin(n) * 43758.5453123);
@@ -103,4 +100,3 @@ The base algorithm works, but the way the pointdata input/output is done is real
 
   }
 {% endhighlight %}
--->
