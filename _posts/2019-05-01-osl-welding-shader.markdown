@@ -4,7 +4,7 @@ title:  "Procedural welding in OSL"
 date:   2019-05-01 11:00:00
 ---
 
-<img src="{{ site.baseurl }}/assets/img/zenopelgrims_shadersxyz_challenge_10_welding_002">
+<img src="{{ site.baseurl }}/assets/img/zenopelgrims_shadersxyz_challenge_10_welding_002.png">
 *The burn variation could use some work ...*
 {:.caption}
 
