@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Procedural welding in OSL"
+title:  "On procedural welding in OSL"
 date:   2019-05-01 11:00:00
 ---
 
@@ -14,20 +14,18 @@ Procedural welding is an interesting challenge since it's not something you want
 
 So, a little algorithm to calculate this procedurally needs to be devised:
 
-1. Generate curves from edge loop and resample with point count equal to welding frequency
-2. For every shading point:
-  3. Calculate the distance to every curve point
-  4. Compare distance to user-set welding radius to determine displacement amount (could use a ramp to look up a certain value)
-  5. If distance to point N is smallest and if distance to point N+1 is also within the radius
-    6. Add displacements of both lookups of N and N+1
-
+- Generate curves from edge loop and resample with point count equal to welding frequency
+- For every shading point:
+  - Calculate the distance to every curve point
+  - Compare distance to user-set welding radius to determine displacement amount (could use a ramp to look up a certain value)
+  - If distance to point N is smallest and if distance to point N+1 is also within the radius
+    - Add displacements of both lookups of N and N+1
 
 Imagine the two scenarios. A point within the welding radius, and a point outside the welding radius. What are the conditions for both?
 
 If we disregard the welding overlapping, I am only interested in the closest point. In the simplest case, you can reason that if the distance between the shading point and the closest curve point is smaller than the welding radius, we should displace. If the distance is larger than the radius, no work needs to be done.
 
 That’s all there is to it really.
-
 
 <img src="https://forum.shaders.xyz/assets/files/2019-04-04/1554362367-637107-zenopelgrims-shadersxyz-challenge-10-welding-001-profile.png">
 *This ramp defines the profile of the weld*
